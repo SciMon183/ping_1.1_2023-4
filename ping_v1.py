@@ -1,3 +1,5 @@
+#  dziala na 100%
+
 # Funkcja sprawdzająca, czy któryś z kandydatów uzyskał większość absolutną
 def sprawdz_wiekszosc(glosy):
     suma_glosow = sum(glosy)
@@ -19,3 +21,4 @@ for _ in range(t):
     # Wywołanie funkcji sprawdzającej i wydruk wyniku
     wynik = sprawdz_wiekszosc(glosy)
     print(wynik)
+    
